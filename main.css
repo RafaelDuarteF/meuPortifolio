@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 50%;
+    height: 95%;
+    border: 2px solid rgb(112, 34, 122);
+}
+.perfil {
+    width: 100%;
+    height: 40%;
+    background-color: #201B3C;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+}
+.infosPerfil {
+    width: 100%;
+    height: 60%;
+    background: #00ff88;
+}
+.imgPerfil {
+    width: 18%;
+    border-radius: 100%;
+}
+.nomePerfil, .areaPerfil {
+    color: white;
+    margin-top: 15px;
+    font-size: 15pt;
+}
+.areaPerfil {
+    font-size: 13pt;
+    margin-top: 5px;
+}
+.abasPerfil {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid gray;
+    background: #44D18F;
+    overflow: hidden;
+}
+.descPerfil, .linksPerfil {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descPerfil {
+    border-right: 1px solid gray;
+}
+.imgHome, .imgLinks {
+    width: 15%;
+}
+.descPerfil:hover, .linksPerfil:hover {
+    cursor: pointer;
+    background: rgb(42, 6, 63);
+    opacity: 70%;
+}
+.exibePerfil {
+    width: 100%;
+    overflow-y: scroll;
+    height: 80%;
+}
+.sobreMim, .minhasRedes {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+}
+.titleSobreMim, .titleMinhasRedes {
+    margin-bottom: 40px;
+}
+.textSobreMim {
+    font-size: 13pt;
+}
+.exibePerfil::-webkit-scrollbar {
+    width: 6px;
+}
+.exibePerfil::-webkit-scrollbar-track {
+    background: gainsboro;
+    border-radius: 5px;
+}
+.exibePerfil::-webkit-scrollbar-thumb {
+    background: #201B3C;
+    border-radius: 6px;
+}
+.exibePerfil::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+@media only screen and (max-width:850px) {
+    .card {
+        width: 70%;
+    }
+}
+@media only screen and (max-width:650px) {
+    .card {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:400px) {
+    .card {
+        width: 100%;
+    }
+    .areaPerfil {
+        font-size: 12pt;
+    }
+}
+.titleMinhasRedes {
+    text-align: center;
+}
+.minhasRedes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btnRedes {
+    height: 50px;
+    width: 80%;
+    border-radius: 20px;
+    font-size: 14pt;
+    border: 0;
+}
+.btnGithub {
+    background: #252525;
+    color: white;
+}
+.btnFacebook {
+    background: rgb(0, 0, 114);
+    color: white;
+}
