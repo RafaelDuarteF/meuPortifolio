@@ -32,7 +32,7 @@
 .infosPerfil {
     width: 100%;
     height: 60%;
-    background: #00ff88;
+    background: #ffffff;
 }
 .imgPerfil {
     width: 18%;
@@ -52,7 +52,7 @@
     width: 100%;
     height: 20%;
     border-bottom: 1px solid gray;
-    background: #44D18F;
+    background: rgb(70, 70, 70);
     overflow: hidden;
 }
 .descPerfil, .linksPerfil {
@@ -145,6 +145,15 @@
     }
     .imgPerfil {
         width: 25%;
+    }
+    .imgHome, .imgLinks {
+        width: 20%;
+    }
+    .perfil {
+        height: 30%;
+    }
+    .infosPerfil {
+        height: 70%;
     }
 }
 @media only screen and (max-width:400px) {
