@@ -1,4 +1,6 @@
 $(document).ready(() => {
+    linksOpen = false;
+    redesOpen = true;
     minhasRedes = $(".minhasRedes"); minhasRedes.hide();
     $(".descPerfil").css("background", "gray");
     sobreMim = $(".sobreMim");

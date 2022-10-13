@@ -155,6 +155,9 @@
     .infosPerfil {
         height: 70%;
     }
+    .abasPerfil {
+        height: 14%;
+    }
 }
 @media only screen and (max-width:400px) {
     .areaPerfil {
